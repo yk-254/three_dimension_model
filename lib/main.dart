@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: O3D.asset(src: 'assets/three_d_models/walter_white.glb',controller:o3 ,cameraOrbit: CameraOrbit(90, 90, 100),)
+        child: O3D.asset(src: 'assets/three_d_models/earth_warsg1_optimus-prime_style_rotbtf7.glb',controller:o3,autoPlay: true ,cameraOrbit: CameraOrbit(90, 90, 100),)
       ),
        // This trailing comma makes auto-formatting nicer for build methods.
     );
