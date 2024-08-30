@@ -39,7 +39,7 @@ class Caharactors extends StatelessWidget {
                 shrinkWrap: true,
                 physics: AlwaysScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
-                itemCount: 10,
+                itemCount: transformers.length,
                 itemBuilder: (context, index) {
                   print(autoPlay.value);
                   return Obx(() => Container(
@@ -57,7 +57,7 @@ class Caharactors extends StatelessWidget {
                               child: ClipRRect(
                                   borderRadius: BorderRadius.circular(30),
                                   child: O3D.asset(
-                                    src: 'assets/three_d_models/${chars[index]['name'].toString()}.glb',
+                                    src: 'assets/three_d_models/transformers${transformers[index]['name'].toString()}.glb',
                                     controller: o3,
                                     autoPlay: autoPlay.value,
                                     cameraOrbit: CameraOrbit(10, 90, 50),
@@ -70,7 +70,7 @@ class Caharactors extends StatelessWidget {
                               child: BlurryContainer(
                                 child: Center(
                                   child: Text(
-                                    chars[index]['name'].toString(),
+                                    transformers[index]['name'].toString(),
                                     style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                                   ),
                                 ),
