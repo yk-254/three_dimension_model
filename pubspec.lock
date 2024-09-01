@@ -17,14 +17,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  blurrycontainer:
+  blurbox:
     dependency: "direct main"
     description:
-      name: blurrycontainer
-      sha256: ceb51f5bf0c746509a64fec43988a482adbcdf8bc5e0a11f3cc49b9ed35ff230
+      name: blurbox
+      sha256: "5b8e8550ae54730293230509ae783f62b177b9a38e33d3c23c8f814a39219ba0"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "0.0.4"
   boolean_selector:
     dependency: transitive
     description:
@@ -96,14 +96,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  get:
-    dependency: "direct main"
-    description:
-      name: get
-      sha256: e4e7335ede17452b391ed3b2ede016545706c01a02292a6c97619705e7d2a85e
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.6.6"
   leak_tracker:
     dependency: transitive
     description:

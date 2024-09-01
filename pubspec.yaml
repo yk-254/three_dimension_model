@@ -36,9 +36,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   o3d: ^3.1.2
-  get: ^4.6.6
-  blurrycontainer: ^2.1.0
   palette_generator: ^0.3.3+4
+  blurbox: ^0.0.4
 
 dev_dependencies:
   flutter_test:

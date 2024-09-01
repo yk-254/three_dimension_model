@@ -1,8 +1,7 @@
 import 'dart:ui';
 
-import 'package:blurrycontainer/blurrycontainer.dart';
+import 'package:blurbox/blurbox.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:o3d/o3d.dart';
 import 'package:three_dimension_model/list_of_chars.dart';
 
@@ -27,7 +26,14 @@ class Caharactors extends State<Chars> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color(0xfff0abbf),Color(0xffbc68a2), Color(0xff351c63), Color(0xff374cbc), Color(0xff3babe4), Color(0xff213d7f), ],
+            colors: [
+              Color(0xfff0abbf),
+              Color(0xffbc68a2),
+              Color(0xff351c63),
+              Color(0xff374cbc),
+              Color(0xff3babe4),
+              Color(0xff213d7f),
+            ],
           ),
         ),
         child: GridView.builder(
@@ -62,7 +68,7 @@ class Caharactors extends State<Chars> {
                     bottom: 0,
                     right: 0,
                     left: 0,
-                    child: BlurryContainer(
+                    child: BlurBox(
                       child: Center(
                         child: Text(
                           transformers[index]['name'].toString(),
